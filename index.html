@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comunidade em Cena</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>COMUNIDADE EM CENA</h1>
+        <p>Valorizando a cultura periférica com tecnologia e visibilidade</p>
+    </header>
+
+    <main>
+        <section id="sobre">
+            <h2>Sobre o Projeto</h2>
+            <p>O “Comunidade em Cena” é uma plataforma digital voltada à divulgação e organização de eventos culturais em comunidades periféricas. Por meio dela, artistas, coletivos e moradores podem cadastrar eventos, acompanhar a agenda local e fortalecer a cultura da região com mais participação e inclusão.</p>
+            <img src="evento.jpg" alt="Imagem do evento cultural">
+        </section>
+
+        <section id="informacoes">
+            <h2>Informações do Evento</h2>
+            <ul>
+                <li><strong>Data:</strong> 25 de Maio de 2025</li>
+                <li><strong>Horário:</strong> 16h às 22h</li>
+                <li><strong>Local:</strong> Praça da Cultura – São José dos Campos</li>
+                <li><strong>Entrada:</strong> Gratuita</li>
+            </ul>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Envie sugestões ou cadastre seu evento pelo e-mail: <a href="mailto:contato@comunidadeemcena.org">contato@comunidadeemcena.org</a></p>
+        </section>
+
+        <button id="participar-btn">Cadastrar Evento</button>
+    </main>
+
+    <script>
+        document.getElementById("participar-btn").addEventListener("click", function() {
+            alert("Obrigado! Em breve entraremos em contato para finalizar o cadastro do seu evento.");
+            window.location.href = "mailto:contato@comunidadeemcena.org";
+        });
+    </script>
+
+    <footer>
+        <p>&copy; 2025 Comunidade em Cena. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
